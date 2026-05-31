@@ -8,8 +8,8 @@ Future<void> main() async {
 
   // Initialize Supabase
   await Supabase.initialize(
-    url: 'https://rdfynlytunmdhnxkimwf.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkZnlubHl0dW5tZGhueGtpbXdmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NTg3NzAyMSwiZXhwIjoyMDkxNDUzMDIxfQ.N_2G5Idd5cdYw8J6KKvit2gG9wOs6gYi0gIK1XitOuw',
+    url: '',
+    anonKey: '',
   );
 
   runApp(const ExorcistApp());
